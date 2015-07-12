@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'redswallow'
 AUTHOR_SAVE_AS = False
+AUTHORS_SAVE_AS = False
 
 SITENAME = u'Notes'
 SITEURL = ''
@@ -18,7 +19,7 @@ THEME = "theme/pure"
 COVER_IMG_URL="/theme/images/bg.jpg"
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
-DISQUS_SITENAME = 'redswallowgithubio.disques.com'
+DISQUS_SITENAME = 'redswallowgithubio.disqus.com'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -34,8 +35,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
